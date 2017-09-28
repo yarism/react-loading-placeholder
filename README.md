@@ -6,6 +6,9 @@
 
 Describe react-loading-placeholder here.
 
+<LoadingPlaceholder numberOfRows={3} tableLayout={true} heightOfRows={60} spaceBetween={20} filterOptions={{width: 300, height: 50}}></LoadingPlaceholder>
+
+
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
 
