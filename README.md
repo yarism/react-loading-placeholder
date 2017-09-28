@@ -1,19 +1,41 @@
 # react-loading-placeholder
 
-[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-loading-placeholder here.
-
-<LoadingPlaceholder numberOfRows={3} tableLayout={true} heightOfRows={60} spaceBetween={20} filterOptions={{width: 300, height: 50}}></LoadingPlaceholder>
+Inspired by Facebook Content Placeholder and this article: https://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html
+Can be used for both tables and lists.
 
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+## Installation
+
+```bash
+npm install --save react-loading-placeholder
+```
+
+
+## Including it:
+```javascript
+import LoadingPlaceholder from 'react-loading-placeholder'
+
+<LoadingPlaceholder numberOfRows={10}></LoadingPlaceholder>
+```
+
+## Settings:
+
+#### Set row height and space between:
+```
+<LoadingPlaceholder numberOfRows={10} heightOfRows={40} spaceBetween={10}></LoadingPlaceholder>
+```
+
+#### Table Layout:
+```
+<LoadingPlaceholder numberOfRows={10} tableLayout={true}></LoadingPlaceholder>
+```
+
+#### Set filter placeholder size:
+```
+<LoadingPlaceholder numberOfRows={10} tableLayout={true} filterOptions={{width: 300, height: 50}}></LoadingPlaceholder>
+```
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
-
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[npm]: https://www.npmjs.com/package/react-loading-placeholder
