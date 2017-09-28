@@ -2,9 +2,9 @@
 
 [![npm package][npm-badge]][npm]
 
-Inspired by Facebook Content Placeholder and this article: https://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html. Can be used for both tables and lists. Demo GIF is compressed, the plugin looks much better in use.
+Inspired by Facebook Content Placeholder and this article: https://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html. Can be used for both tables and lists.
 
-![Demo GIF](https://user-images.githubusercontent.com/1689831/30973171-bfc0e644-a46c-11e7-9517-61bb78d44299.gif)
+![Demo GIF](https://user-images.githubusercontent.com/1689831/30980929-fe6d2e0a-a482-11e7-8b1c-4847190e3e4f.gif)
 
 
 
